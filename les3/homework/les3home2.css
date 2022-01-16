@@ -1,0 +1,53 @@
+body {
+    background-color: silver
+}
+
+#widgets {
+    box-sizing: border-box;
+    width: 500px;
+    height: 150px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+#small3 {
+    box-sizing: border-box;
+    height: 180px;
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+
+
+}
+
+#small3 > .small {
+    box-sizing: border-box;
+    background-color: #6307ef;
+    width: 160px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+#contact {
+    box-sizing: border-box;
+    width: 500px;
+    height: 250px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
