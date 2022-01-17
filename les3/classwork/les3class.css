@@ -1,25 +1,27 @@
 
 .main{
     box-sizing: border-box;
-    height: 550px;
-    width: 660px;
+    height: 530px;
+    width: 565px;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: white;
+    padding: 5px;
 }
 
 #a-box{
     box-sizing: border-box;
     height: 200px;
-    width: 590px;
+    width: 555px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: silver;
+    margin-bottom: 5px;
 
 }
 
@@ -39,7 +41,7 @@
 }
 .small-box{
     box-sizing: border-box;
-    height: 160px;
+    height: 150px;
     width: 145px;
     border-radius: 5px;
     display: flex;
@@ -55,6 +57,7 @@
     width: 450px;
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
 
 
 
@@ -68,30 +71,33 @@
     height: 310px;
     display: flex;
 
+
 }
 
-.down-box{
+#down-box{
     box-sizing: border-box;
-    width: 600px;
-    height: 180px;
+    width: 620px;
+    height: 200px;
     display: flex;
 }
 #f-box{
     box-sizing: border-box;
     width: 100px;
-    height: 210px;
+    height: 315px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: silver;
+    margin-left:5px;
 
 
 }
 
-#2big{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-}
+/*#2big{*/
+/*    box-sizing: border-box;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+
+/*}*/
