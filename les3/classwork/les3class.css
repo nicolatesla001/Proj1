@@ -1,0 +1,97 @@
+
+.main{
+    box-sizing: border-box;
+    height: 550px;
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#a-box{
+    box-sizing: border-box;
+    height: 200px;
+    width: 590px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+
+}
+
+#b-box{
+    box-sizing: border-box;
+    height: 160px;
+    width: 450px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+
+
+
+}
+.small-box{
+    box-sizing: border-box;
+    height: 160px;
+    width: 145px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+}
+
+#small3{
+    box-sizing: border-box;
+    height: 160px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+
+#4-box{
+    box-sizing: border-box;
+    width: 305px;
+    height: 310px;
+    display: flex;
+
+}
+
+.down-box{
+    box-sizing: border-box;
+    width: 600px;
+    height: 180px;
+    display: flex;
+}
+#f-box{
+    box-sizing: border-box;
+    width: 100px;
+    height: 210px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+
+
+}
+
+#2big{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
