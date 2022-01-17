@@ -1,8 +1,8 @@
 
 .main{
     box-sizing: border-box;
-    height: 530px;
-    width: 565px;
+    height: 455px;
+    width: 610px;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -13,13 +13,12 @@
 
 #a-box{
     box-sizing: border-box;
-    height: 200px;
-    width: 555px;
+    height: 145px;
+    width: 600px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: silver;
     margin-bottom: 5px;
 
@@ -27,13 +26,12 @@
 
 #b-box{
     box-sizing: border-box;
-    height: 160px;
+    height: 145px;
     width: 450px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: silver;
 
 
@@ -41,13 +39,12 @@
 }
 .small-box{
     box-sizing: border-box;
-    height: 150px;
+    height: 145px;
     width: 145px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: silver;
 }
 
@@ -82,22 +79,14 @@
 }
 #f-box{
     box-sizing: border-box;
-    width: 100px;
-    height: 315px;
+    width: 145px;
+    height: 295px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: silver;
     margin-left:5px;
 
 
 }
-
-/*#2big{*/
-/*    box-sizing: border-box;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-
-/*}*/
