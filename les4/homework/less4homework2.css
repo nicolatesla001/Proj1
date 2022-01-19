@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 #main{
     box-sizing: border-box;
     height: 900px;
