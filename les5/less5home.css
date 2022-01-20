@@ -1,0 +1,60 @@
+#main{
+    width: 417px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    grid-gap: 5px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+
+.abox{
+    width: 405px;
+    height: 100px;
+}
+
+.bbox{
+    width: 300px;
+    height: 300px;
+}
+
+.cbox{
+    width: 100px;
+    height: 300px;
+}
+.text{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+@media screen and (max-width: 768px) {
+    #main{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        grid-gap: 15px;
+    }
+
+    .bbox{
+        width: 405px;
+    }
+
+    .cbox{
+        height: 100px;
+        width: 405px;
+    }
+
+}
+
+
+
+
+
+
