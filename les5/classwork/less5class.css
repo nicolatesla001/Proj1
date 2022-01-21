@@ -1,0 +1,203 @@
+#main {
+    box-sizing: border-box;
+    width: 505px;
+    height: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 5px;
+
+}
+
+.box1-2 {
+    display: flex;
+    grid-gap: inherit;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+.header {
+    width: 395px;
+    height: 80px;
+}
+
+.nav {
+    width: 100px;
+    height: 340px;
+}
+
+.bath {
+    width: 290px;
+    height: 205px;
+}
+
+.add {
+    width: 100px;
+    height: 205px;
+}
+
+.types {
+    width: 290px;
+    height: 300px;
+}
+
+.relared {
+    width: 100px;
+    height: 300px;
+}
+
+.store {
+    width: 100px;
+    height: 80px;
+}
+
+.tools {
+    width: 100px;
+    height: 80px;
+}
+
+.footer {
+    width: 500px;
+    height: 130px;
+}
+
+.text {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: inherit;
+}
+
+.boxt4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-gap: inherit;
+}
+
+.bathadd {
+    width: 395px;
+    height: 205px;
+    display: flex;
+    grid-gap: inherit;
+}
+
+.types2 {
+    display: flex;
+    grid-gap: inherit;
+}
+
+.add89 {
+    display: flex;
+    flex-direction: column;
+    grid-gap: inherit;
+
+}
+
+.tag39 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tree {
+    display: flex;
+    flex-direction: column;
+    grid-gap: inherit;
+}
+
+.addnew {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    #main {
+        width: 200px;
+        height: 872px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1-2 {
+        width: 200px;
+        display: flex;
+        grid-gap: 1px;
+    }
+
+    .conteiner {
+        width: 200px;
+    }
+
+    .tree {
+        display: flex;
+        width: 200px;
+    }
+
+    .nav {
+        height: 50px;
+        width: 200px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkblue;
+        color: white;
+
+    }
+
+    .boxt4 {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5px;
+    }
+
+    .bathadd {
+        width: 200px;
+        height: 205px;
+    }
+
+    .types2 {
+        width: 200px;
+
+    }
+
+    .add89 {
+        display: none;
+        flex-direction: row;
+        order: 2;
+    }
+
+    .footer {
+        width: 200px;
+    }
+
+    .addnew {
+        display: flex;
+
+    }
+
+    .store1 {
+        width: 97.5px;
+        margin-right: 5px;
+        height: 70px;
+    }
+
+    .tools1 {
+        width: 97.5px;
+        height: 70px;
+    }
+
+}
+
+
+
