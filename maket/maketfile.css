@@ -1,0 +1,145 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 3000px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.nav-menu-item a {
+    font-size: 15px;
+    line-height: 16px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.top_bar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+}
+
+.nav-buttons {
+    margin-left: 5px;
+    display: flex;
+    column-gap: 18px;
+}
+
+.nav-btn {
+    height: 52px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 0 25px;
+    cursor: pointer;
+    transition: box-shadow 0.35s;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.nav-btn:hover {
+    -webkit-box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.61);
+}
+
+.nav-btn-login {
+    border: 1px solid black;
+    background: none;
+    color: black;
+}
+
+.nav-btn-expert {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.header-content-wrap {
+    margin-right: 89px;
+    padding: 100px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 63px;
+
+}
+
+.header-content-title {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: black;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: black;
+}
+
+.header-content {
+    width: 510px;
+    min-width: 500px;
+    box-sizing: border-box;
+}
+
+.text-1 {
+    width: 500px;
+}
+
+.header-content-image {
+    flex-grow: 1;
+    margin-right: 89px;
+}
+
+.header-content-image img {
+    width: 100%;
+}
+
+.header-content h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    margin-top: 100px;
+
+}
+
+.header-button-bottom {
+    width: 159px;
+    height: 61px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    position: absolute;
+    top: 670px;
+    cursor: pointer;
+    transition: box-shadow 0.35s;
+
